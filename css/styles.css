@@ -1,0 +1,26 @@
+/* something */
+
+body,
+html {
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/PXL_20220102_210407122.jpg");
+  /* background-image: url("../images/PXL_20220102_215816995.jpg"); */
+  background-color: #cccccc;
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-block {
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.5;
+  font: garamond;
+  font-size: 24px;
+}
