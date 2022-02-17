@@ -17,6 +17,21 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (orientation: landscape) {
+  .parallax {
+    /* The image used */
+    background-image: url("../images/PXL_20220102_210407122.jpg");
+    /* background-image: url("../images/PXL_20220102_215816995.jpg"); */
+    background-color: #cccccc;
+    /* 2x height to compensate for shortened viewport height */
+    height: 210%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 .text-block {
   height: 100%;
   background-color: #ffffff;
